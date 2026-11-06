@@ -1,0 +1,27 @@
+# Credenciais e variáveis de ambiente — nunca versionar
+.env
+.env.*
+!.env.example
+*.token
+*secret*
+*credential*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Ferramentas
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
